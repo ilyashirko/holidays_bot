@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "holidays-bot"
+version = "0.1.0"
+description = ""
+authors = ["ilyashirko <ilyashirko@gmail.com>"]
+readme = "README.md"
+packages = [{include = "holidays_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-telegram-bot = "13.15"
+requests = "^2.29.0"
+environs = "^9.5.0"
+more-itertools = "^9.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
